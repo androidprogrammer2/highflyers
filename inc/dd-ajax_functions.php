@@ -302,6 +302,7 @@ add_action('wp_ajax_nopriv_home_filter_program_classes', 'home_filter_program_cl
 add_action('wp_ajax_home_filter_program_classes', 'home_filter_program_classes');
 
 echo 'How are you';
+echo 'How are you';
 
 
 
