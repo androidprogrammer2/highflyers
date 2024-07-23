@@ -1,0 +1,161 @@
+
+.contact-us-form .gform-body.gform_body .gform_fields {
+    grid-column-gap: 3px;
+    grid-row-gap: 3px;
+}
+.contact-us-form .gform-body.gform_body .gform_fields label {
+    display: none;
+}
+.contact-us-form .gform_validation_errors {
+    display: none !important;
+}
+.contact-us-form {
+    background: var(--Light-Green, #0074811A);
+    padding: 20px;
+    border-radius: 20px;
+}
+.gform_title {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 20px;
+    color: #001E21;
+    font-weight: 600;
+}
+.contact-us-form .gform-body.gform_body .gform_fields input,
+.contact-us-form .gform-body.gform_body .gform_fields textarea {
+    border: 000;
+    border-radius: 0;
+    background-color: transparent;
+    padding: 10px 20px;
+    height: auto;
+    font-size: 17px;
+    line-height: 30px;
+    color: #001E21;
+    box-shadow: unset;
+    text-transform: capitalize;
+}
+.contact-us-form .gform-body.gform_body .gform_fields .gfield {
+    background: #ffffff;
+}
+.contact-us-form .gform-body.gform_body {
+    border-radius: 10px;
+    overflow: hidden;
+}
+.contact-us-form .gform-body.gform_body .gform_fields textarea {
+    height: 150px;
+    min-height: 150px;
+}
+.contact-us-form .gform-body.gform_body .gform_fields .gfield.terms-and-conditions {
+    padding: 20px 20px 20px 350px;
+    text-align: right;
+    font-size: 15px;
+    line-height: 22px;
+    color: #001E21;
+    font-weight: 400;
+}
+.contact-us-form .gform-body.gform_body .gform_fields .gfield.terms-and-conditions a {
+    text-decoration: underline;
+    font-weight: 600;
+    display: block;
+}
+input[type="submit"] {
+    background: #DB9F05 !important;
+    padding: 12px 24px !important;
+    border-radius: 8px !important;
+    font-size: 14px !important;
+    line-height: 17px !important;
+    font-weight: 600 !important;
+    transition: all 0.6s !important;
+    border: 2px solid #DB9F05 !important;
+}
+input[type="submit"]:hover{
+    background-color: #A16F00 !important;
+    border: 2px solid #A16F00 !important;
+    color: #ffffff !important;
+}
+.contact-us-form  .gform_footer.top_label {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.gfield_description.validation_message {
+    margin: 0;
+    background: #C32C2F;
+    color: #ffffff !important;
+    font-size: 12px !important;
+    line-height: 15px !important;
+    text-transform: uppercase;
+    font-weight: 600 !important;
+    padding: 10px 18px;
+}
+.contact-us-form form {
+    position: relative;
+}
+.contact-info .footer-info-title {
+    font-size: 24px;
+    line-height: 28px;
+}
+.contact-info {
+    max-width: 300px;
+    width: 100%;
+    padding: 20px;
+}
+.contact-info .info-wrap-main{
+    margin-bottom: 40px;
+}
+body .gform_confirmation_message {
+    background: #FFFFFF;
+    padding: 40px;
+    border-radius: 20px;
+    max-width: 640px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+body .gform_confirmation_message img {
+    margin-bottom: 15px;
+}
+body .gform_confirmation_message img p {
+    font-size: 24px;
+}
+body .gform_confirmation_message p {
+    font-size: 24px;
+    line-height: 28px;
+    color: #001E21;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width:1199px){
+    .contact-us-form .gform-body.gform_body .gform_fields .gfield.terms-and-conditions {
+        padding: 20px 20px 20px 220px;
+    }
+    .contact-info {
+        padding: 20px 0;
+    }
+}
+@media only screen and (max-width:991px){
+    .contact-us-form  .gform_footer.top_label {
+        position: absolute;
+        bottom: 35px;
+    }
+    .contact-info .footer-info-title {
+        font-size: 20px;
+        line-height:24px;
+    }
+}
+@media only screen and (max-width:767px){
+    .contact-us-form .gform-body.gform_body .gform_fields .gfield.terms-and-conditions {
+        padding: 15px;
+        text-align: left;
+    }
+    .contact-us-form  .gform_footer.top_label {
+        position: static;
+        bottom: 0;
+        left: 0;
+    }
+    .contact-us-form {
+        padding: 15px;
+        border-radius: 15px;
+    }
+}

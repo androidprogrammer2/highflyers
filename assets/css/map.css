@@ -1,0 +1,8 @@
+.simple-map iframe {
+    width: 100%;
+    max-width: 1070px;
+    text-align: center;
+    margin: auto;
+    display: table;
+    border-radius: 20px;
+}

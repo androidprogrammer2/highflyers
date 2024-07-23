@@ -1,0 +1,108 @@
+.es-review-background-container {
+    background: rgb(244, 244, 244);
+    padding: 20px 20px 60px 20px;
+    position: relative;
+}
+.es-review-background-container .es-review-author-block-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+}
+.es-review-background-container .es-review-author-block-container .es-review-author-name-container .es-review-author-name {
+    font-size: 25px;
+    line-height: 25px;
+    font-family: var(--main-font-family);
+    color: #007481;
+}
+.es-review-background-container .es-review-author-block-container .es-review-author-name-container .es-review-verified-badge-container {
+    display: none;
+}
+.es-review-background-container .es-review-author-block-container .es-review-author-block-avatar-link {
+    margin-right: 0;
+    margin-left: 12px;
+}
+.es-review-background-container .es-review-author-block-container .es-review-author-block-avatar-link .es-review-avatar-container {
+    background: transparent;
+    border: 0;
+    height: 24px;
+    width: 24px;
+}
+.es-review-background-container .es-review-author-block-container .es-review-author-block-avatar-link .es-review-avatar-container svg {
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
+.es-review-background-container .es-review-author-block-container .es-review-author-block-avatar-link .es-review-avatar-container .es-source-image {
+    height: 24px;
+    width: 24px;
+}
+.es-review-background-container .es-review-author-block-container .es-review-author-name-container {
+    margin-bottom: 0;
+}
+.es-review-background-container .es-review-content-text {
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 400;
+}
+.es-review-background-container .es-review-content-control {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #DB9F05;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.es-review-background-container .es-review-content-control:hover{
+  color: #A16F00;
+}
+.es-review-background-container .es-review-author-block-container .es-review-author-name-container:hover {
+    text-decoration: none;
+}
+
+.es-review-background-container .es-review-content-control:hover,
+.es-review-background-container .es-review-content-control:focus{
+    text-decoration: none;
+}
+body .es-load-more-button-container .es-load-more-button {
+    background: #DB9F05 !important;
+    padding: 12px 14px 10px 14px !important;
+    color: #FFFFFF !important;
+    font-size: 14px !important;
+    line-height: 18px !important;
+    transition: all 0.4s;
+}
+body .es-load-more-button-container .es-load-more-button:hover{
+    background-color: #A16F00 !important;
+    border: 2px solid #A16F00 !important;
+    color: #ffffff !important;
+}
+body .es-load-more-button-container .es-load-more-button span {
+    padding: 0 !important;
+}
+
+body .es-load-more-button-container .es-load-more-button span:hover {
+    background: transparent !important;
+}
+
+
+.es-grid-layout>div:nth-child(even) .es-review-background-container {
+    background: #E6F2F3;
+}
+
+.es-grid-layout>div:nth-child(even) .es-review-background-container .es-review-author-name {
+    color: #000000 !important;
+}
+.es-review-content:has(.es-review-content-control-hide) .es-review-content-text {
+    max-height: 200px;
+    overflow-y: auto;
+}
+body .es-load-more-button-container .es-load-more-button span {
+    background: transparent !important;
+}
+.es-load-more-button-container {
+    margin-top: 32px;
+}

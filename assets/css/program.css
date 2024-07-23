@@ -1,0 +1,223 @@
+.wcp-top {}
+
+.programs-sec .why-choose ul {
+    margin-left: 18px;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.programs-sec .why-choose ul li::marker {
+    color: #007481;
+}
+
+.programs-sec .why-choose ul li:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.programs-sec .why-choose ul li {
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.why-choose .wcp-top {
+    margin-bottom: 40px;
+}
+
+.wcp-middle .img-wrap {
+    position: relative;
+    padding-bottom: 84%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.wcp-middle .img-wrap img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.wcp-middle {
+    margin-bottom: 40px;
+}
+
+.gymtastic-experience {
+    background: #F7F7F8;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.gymtastic-experience h2 {
+    margin-bottom: 0;
+}
+.attention {
+    background: var(--Light-Green, #0074811A);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+table{
+    border-collapse: separate; /* Make sure border-collapse is separate */
+    border-spacing: 0; /* Remove space between borders */
+    width: 100%;
+    border: 1px solid #001E21; /* Add border to the table */
+    border-radius: 20px; /* Add rounded corners to the table */
+ }
+ td, th {  
+  text-align: left;
+  border: 1px solid #001E21;
+}
+tr:first-child th:first-child {
+    border-top-left-radius: 20px;
+}
+
+tr:first-child td:last-child {
+    border-top-right-radius: 20px;
+}
+
+tr:last-child th:first-child {
+    border-bottom-left-radius: 20px;
+}
+
+tr:last-child td:last-child {
+    border-bottom-right-radius: 20px;
+}
+
+ table th {
+    font-weight: 600;
+    background: #E6F2F3;
+}
+.program-details table th{
+    width: 211px;
+}
+table td {
+    font-weight: 400;
+   
+}
+ table th,table td {
+    padding: 12px 20px;
+    font-size: 17px;
+    line-height: 22px;
+    color: #001E21;
+}
+.program-details {
+    background: #E6F2F3;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+ table td {
+    background: #ffffff;
+}
+.program-cost table th{
+   width: 58%;
+}
+.program-cost table th h6 {
+    margin-bottom: 5px;
+    color: #001E21;
+}
+.program-cost-sec .content-block {
+    max-width: 342px;
+    width: 100%;
+}
+  
+.book-onlin-slide {
+    position: relative;
+    min-height: 313px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.book-onlin-slide img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.book-online-list .slick-dots {
+    bottom: 25px;
+}
+.book-online-list .slick-dots li.slick-active button:before {
+    height: 12px;
+    width: 12px;
+    background: #007481;
+    border: 0;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+
+.book-online-list .slick-dots li button {
+    height: 18px;
+    width: 18px;
+    opacity: 1;
+    background: #ffffff;
+    border-radius: 50%;
+    padding: 0;
+    position: relative;
+}
+
+.book-online-list .slick-dots li {
+    height: 18px;
+    width: 18px;
+}
+.book-online-list .slick-dots li button:before{
+   opacity: 0;
+   background: #007481;
+   border: 0;
+}
+.book-online-list .slick-dots li button:hover:before {
+    height: 12px;
+    width: 12px;
+    opacity: 1;
+    border-color: #007481;
+    background: #007481;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+  
+}
+.gymtastic-experience .theme-btn {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.gymtastic-experience .theme-btn:last-child {
+    margin-bottom: 0;
+}
+@media only screen and (max-width:1199px){
+    table th, table td {
+        padding: 12px 15px;
+    }
+}
+@media only screen and (max-width:991px){
+    .gymtastic-experience {
+        padding: 25px 25px;
+    }
+    .program-details {
+        padding: 25px 25px;
+    }
+    table th, table td {
+        padding: 10px 15px;
+    }
+}
+@media only screen and (max-width:767px){
+    table th, table td {
+        padding: 10px 10px;
+    }
+    .gymtastic-experience {
+        padding: 25px 15px;
+    }
+    .program-details {
+        padding: 25px 15px;
+    }
+}

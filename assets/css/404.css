@@ -1,0 +1,117 @@
+.error-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.error-text p {
+    margin-bottom: 10px;
+}
+.error-row .error-left {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: calc((100% - 1184px) / 2);
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.error-row .error-right {
+    width: 60%;
+}
+.error-404-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.error-404-img {
+    position: relative;
+    padding-bottom: 89%;
+    height: 100%;
+}
+.error-404 .btn-div > a:first-child {
+    margin-right: 15px;
+}
+.error-text h1 {
+    color: #007481;
+    line-height: 48px;
+}
+.error-text {
+    max-width: 338px;
+    width: 100%;
+}
+.error-text a.theme-btn.border-btn {
+    color: #212121;
+}
+
+.error-text a.theme-btn.border-btn:hover {
+    color: #ffffff;
+}
+.error-text ul,
+.error-text ol {
+    margin-left: 0;
+    margin-top: 15px;
+    padding-left: 16px;
+}
+
+.error-text ul li::marker {
+    color: #007481;
+}
+@media only screen and (max-width:1399px){
+    .error-row .error-left {
+        padding-left: calc((100% - 1124px) / 2);
+      
+    }
+}
+@media only screen and (max-width:1199px){
+    .error-row .error-left {
+        padding-left: calc((100% - 954px) / 2);
+
+    }
+    .error-text h1 {
+        line-height: normal;
+    }
+}
+@media only screen and (max-width:991px){
+    .error-row .error-right {
+        width: 50%;
+    }
+    .error-row .error-left {
+        width: 50%;
+        padding-left: calc((100% - 704px) / 2);
+    }
+    
+}
+@media only screen and (max-width:767px){
+    .error-row .error-left {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .error-row .error-right {
+        width: 100%;
+    }
+    .error-text {
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+    }
+    .error-text .btn-div {
+        justify-content: center;
+    }
+}
+@media only screen and (max-width:374px){
+    .error-404 .btn-div > a:first-child {
+        margin-right: 10px;
+    }
+    .error-text .theme-btn, .error-text  a.theme-btn {
+        padding: 10.5px 15px;
+    }
+}
